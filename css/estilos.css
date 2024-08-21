@@ -1,0 +1,663 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*stilos generales*/
+
+body {
+    background-color: #D8CAB8;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+
+/*h2 títulos de secciones*/
+
+.titulos {
+    color: #003153;
+    font-size: 36px;
+}
+
+
+/*Los h3 que se encuentran bajo los títulos de secciones*/
+
+.subtitulos {
+    color: #3a536b;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+p {
+    text-align: justify;
+}
+
+section {
+    padding: 10px 100px 10px 100px;
+}
+
+
+/*Hasta aquí estilos generales*/
+
+
+/*Bloque inicio // El bloque de sociales va abajo del todo para evitar características que hay en la navegación*/
+
+.img-inicio {
+    border-radius: 5%;
+}
+
+#inicio {
+    background-image: url("../Imagenes/foto_inicio.png");
+    min-height: 195px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 65px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+#inicio h2 {
+    font-size: 26px;
+}
+
+#inicio h3 {
+    font-size: 20px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    /* Alinea verticalmente el icono con el texto */
+    gap: 8px;
+    /* Espacio entre el icono y el texto */
+}
+
+.location h5 {
+    margin: 0;
+    /* Elimina cualquier margen en el h5 para evitar que se desplace */
+    font-size: 16px;
+    /* Ajusta el tamaño de la fuente si es necesario */
+}
+
+.location i {
+    color: #000000;
+}
+
+
+/*Bloque de sobre mí*/
+
+#sobremi p,
+#aboutme p {
+    margin-bottom: 15px;
+    /* Aumenta el espacio entre párrafos */
+    line-height: 1.6;
+    /* Altura de línea para mejorar la legibilidad */
+}
+
+
+/*Bloque navegación*/
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #003366;
+    color: #F5F5F5;
+    border-bottom: 1px solid #F5F5F5;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#nav-es {
+    margin-left: 135px;
+}
+
+#nav-en {
+    margin-left: 15px;
+}
+
+.nav-content ul {
+    display: flex;
+    gap: 15px;
+    /* Espaciado entre los elementos del menú */
+}
+
+.lang {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    gap: 10px;
+    margin-top: 5px;
+    /* Asegura que los botones estén un poco separados del borde */
+}
+
+.lang button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.lang img {
+    width: 35px;
+    height: auto;
+}
+
+i {
+    font-size: 18px;
+    color: aliceblue;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav ul li {
+    padding-top: 5px;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+    margin-right: 5px;
+}
+
+#anchor {
+    font-size: 30px;
+    color: #F5F5F5;
+}
+
+#anchor_li {
+    padding-top: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:any-link¨ {
+    color: aliceblue;
+}
+
+a:-moz-any-link {
+    color: aliceblue;
+}
+
+a:-webkit-any-link {
+    color: aliceblue;
+}
+
+nav ul a:hover {
+    color: #ffc900;
+}
+
+.section-offset {
+    scroll-margin-top: 37px;
+}
+
+
+/* Bloque sobre mi*/
+
+#sobremi,
+#aboutme {
+    border-bottom: 1px solid rgb(34, 61, 232);
+}
+
+
+/*Bloque experiencia*/
+
+.card_exp {
+    width: 370px;
+    background-color: rgba(128, 128, 128, 0.3);
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+}
+
+.filaexperiencia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.card_exp h3,
+.card_exp h4 {
+    padding: 0px 2px 2px 0px;
+}
+
+.card_exp p {
+    padding: 10px 0px 0px 0px;
+}
+
+.card_exp .masinfo {
+    padding: 5px 5px 5px 5px;
+    height: 26px;
+}
+
+.card_exp .masinfo button {
+    background-color: rgba(34, 61, 232, 0.581);
+    float: right;
+    padding: 0px 15px;
+}
+
+.card_exp .sep {
+    margin: 5px 5px 5px 0px;
+    border: 1px solid rgb(34, 61, 232);
+}
+
+button {
+    border-radius: 5px;
+}
+
+.card_exp button {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.filaexperiencia .card_exp a:hover {
+    color: #ffc900;
+}
+
+.tech-icon {
+    width: 40px;
+    /* Ajusta el tamaño según tus necesidades */
+    height: 40px;
+    /* Asegúrate de que sea igual al width para que sea un círculo perfecto */
+    border-radius: 50%;
+    /* Hace que la imagen sea completamente redondeada */
+    margin-right: 10px;
+    /* Espacio entre los iconos */
+    border: 2px solid #333;
+    /* Opcional: puedes agregar un borde para hacer que el icono destaque */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    /* Opcional: añade una sombra suave */
+    object-fit: cover;
+    /* Asegura que la imagen mantenga su proporción dentro del contenedor redondeado */
+    vertical-align: middle;
+    /* Alinea verticalmente con el texto adyacente */
+}
+
+#tech-icon-nx {
+    object-fit: fill;
+}
+
+#tech-icon-foran,
+#openfoam,
+#ansys,
+#matlab {
+    height: 30px;
+    border-radius: 10%;
+    object-fit: contain;
+}
+
+#tech-icon-foran {
+    width: 110px;
+}
+
+#openfoam {
+    width: 80px;
+}
+
+#ansys {
+    width: 50px;
+}
+
+#matlab {
+    width: 60px;
+    object-fit: fill;
+}
+
+#bv {
+    margin-left: 30px;
+}
+
+.text-margin {
+    margin-left: 20px;
+}
+
+.card_exp ul {
+    list-style: square;
+    margin-left: 20px;
+}
+
+.card_exp ul li {
+    margin-bottom: 10px;
+}
+
+.card_exp .tech {
+    text-align: center;
+}
+
+
+/*Bloque sociales*/
+
+#sociales {
+    list-style: none;
+    /* Elimina los puntos de la lista */
+    padding: 0;
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    /* Espacio entre los ítems */
+}
+
+#sociales li {
+    display: flex;
+    align-items: center;
+    /* Alinea verticalmente los iconos con el texto */
+    background-color: rgba(0, 0, 0, 0.468);
+    /* Color de fondo del recuadro */
+    border-radius: 8px;
+    /* Bordes redondeados */
+    padding: 10px 15px;
+    /* Espacio interno del recuadro */
+}
+
+#sociales li span {
+    margin-left: 8px;
+    /* Espacio entre el icono y el texto */
+    font-size: 14px;
+    /* Tamaño de la fuente */
+    color: #ffffff;
+    /* Color del texto */
+}
+
+#sociales li a {
+    color: inherit;
+    /* Mantiene el color del texto */
+    text-decoration: none;
+    /* Elimina el subrayado del enlace */
+}
+
+#sociales .enlace i:hover {
+    color: #ffc900;
+}
+
+
+/*Bloque proyectos*/
+
+
+/* Contenedor de las columnas */
+
+.filaproy {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* Distribuye espacio uniformemente entre las tarjetas */
+    gap: 20px;
+}
+
+.filaproy #primero,
+.filaproy #segundo,
+.filaproy #tercero {
+    flex: 1;
+    width: 33.33%;
+    /* Cada tarjeta ocupa 1/3 de la pantalla */
+    max-width: calc(30% - 20px);
+}
+
+
+/* Estilos para las tarjetas */
+
+.tarjeta {
+    width: 100%;
+    min-width: 150px;
+    background-color: rgba(128, 128, 128, 0.3);
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    gap: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.tarjeta .titulo-proy {
+    clear: both;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.tarjeta .img {
+    width: 100%;
+    /* La imagen ocupará todo el ancho de la tarjeta */
+    height: 200px;
+    /* Mantendrá la proporción de la imagen */
+    object-fit: cover;
+    /* Recorta la imagen para llenar el espacio de la tarjeta sin distorsionar */
+    border-radius: 15px;
+    /* Si quieres que la imagen siga el borde redondeado de la tarjeta */
+}
+
+.tarjeta .video {
+    width: 100%;
+    /* La imagen ocupará todo el ancho de la tarjeta */
+    height: 200px;
+    /* Mantendrá la proporción de la imagen */
+    object-fit: cover;
+    /* Recorta la imagen para llenar el espacio de la tarjeta sin distorsionar */
+    border-radius: 15px;
+}
+
+.tech-icon-proy {
+    width: 30px;
+    /* Ajusta el tamaño según tus necesidades */
+    height: 30px;
+    /* Asegúrate de que sea igual al width para que sea un círculo perfecto */
+    border-radius: 50%;
+    /* Hace que la imagen sea completamente redondeada */
+    margin-right: 10px;
+    /* Espacio entre los iconos */
+    border: 2px solid #333;
+    /* Opcional: puedes agregar un borde para hacer que el icono destaque */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    /* Opcional: añade una sombra suave */
+    object-fit: cover;
+    /* Asegura que la imagen mantenga su proporción dentro del contenedor redondeado */
+    vertical-align: middle;
+    /* Alinea verticalmente con el texto adyacente */
+}
+
+.encabezado {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /* Un tercio y dos tercios */
+    align-items: center;
+    /* Alinea verticalmente al centro */
+    justify-items: center;
+    /* Alinea horizontalmente al centro */
+    margin-top: 10px;
+    margin-left: -50px;
+    margin-bottom: 10px;
+}
+
+.tarjeta .masinfo {
+    padding: 5px 5px 5px 5px;
+}
+
+.tarjeta .masinfo button {
+    background-color: rgba(34, 61, 232, 0.581);
+    float: right;
+    padding: 10px 20px;
+    /* Tamaño del botón: altura y anchura */
+    font-size: 12px;
+    /* Tamaño de la fuente del texto en el botón */
+    margin-top: 10px;
+    /* Espacio superior */
+}
+
+button {
+    border-radius: 5px;
+}
+
+.tarjeta .masinfo button {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.filaproy .tarjeta a:hover {
+    color: #ffc900;
+}
+
+.tarjeta ul {
+    list-style: square;
+    margin-left: 20px;
+}
+
+.tarjeta ul li {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    .encabezado {
+        grid-template-columns: 1fr;
+        /* Hace que ambos títulos ocupen toda la pantalla */
+    }
+    .titulo-1,
+    .titulo-2 {
+        font-size: 1.5rem;
+        /* Ajusta el tamaño de fuente para pantallas pequeñas */
+        padding: 0 10px;
+        /* Añade un poco de padding para que el texto no toque los bordes */
+    }
+}
+
+
+/*Estudios*/
+
+#estudios,
+#education {
+    background-image: url("../Imagenes/fondo_est.png");
+    min-height: 195px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 65px;
+}
+
+#est {
+    color: #F5F5F5;
+}
+
+.card_est {
+    width: 420px;
+    max-width: 420px;
+    background-color: rgba(128, 128, 128, 0.7);
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+}
+
+.filaestudios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.card_est h3,
+.card_est h4 {
+    padding: 0px 2px 2px 0px;
+}
+
+.card_est p {
+    padding: 10px 0px 0px 0px;
+}
+
+.card_est .masinfo {
+    padding: 5px 5px 5px 5px;
+    height: 26px;
+}
+
+.card_est .masinfo button {
+    background-color: rgba(34, 61, 232, 0.581);
+    float: right;
+    padding: 0px 15px;
+}
+
+.card_est .sep {
+    margin: 5px 5px 5px 0px;
+    border: 1px solid rgb(34, 61, 232);
+}
+
+button {
+    border-radius: 5px;
+}
+
+.card_est button {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.filaestudios .card_est a:hover {
+    color: #ffc900;
+}
+
+.tech-icon {
+    width: 40px;
+    /* Ajusta el tamaño según tus necesidades */
+    height: 40px;
+    /* Asegúrate de que sea igual al width para que sea un círculo perfecto */
+    border-radius: 50%;
+    /* Hace que la imagen sea completamente redondeada */
+    margin-right: 10px;
+    /* Espacio entre los iconos */
+    border: 2px solid #333;
+    /* Opcional: puedes agregar un borde para hacer que el icono destaque */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    /* Opcional: añade una sombra suave */
+    object-fit: cover;
+    /* Asegura que la imagen mantenga su proporción dentro del contenedor redondeado */
+    vertical-align: middle;
+    /* Alinea verticalmente con el texto adyacente */
+}
+
+.card_est .tech {
+    text-align: center;
+}
+
+
+/*Footer*/
+
+footer {
+    width: 100%;
+    height: 45px;
+    background-color: #003366;
+    color: #F5F5F5;
+    border-bottom: 1px solid #F5F5F5;
+    padding-top: 10px;
+    text-align: center;
+}
+
+footer i {
+    font-size: 18px;
+    color: aliceblue;
+}
+
+footer ul {
+    list-style: none;
+    display: inline-block;
+}
+
+footer ul li {
+    float: left;
+    padding-top: 5px;
+    font-size: 18px;
+    margin-right: 15px;
+}
