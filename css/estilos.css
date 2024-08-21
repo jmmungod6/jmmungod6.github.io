@@ -524,19 +524,6 @@ button {
     margin-bottom: 10px;
 }
 
-@media (max-width: 600px) {
-    .encabezado {
-        grid-template-columns: 1fr;
-        /* Hace que ambos títulos ocupen toda la pantalla */
-    }
-    .titulo-1,
-    .titulo-2 {
-        font-size: 1.5rem;
-        /* Ajusta el tamaño de fuente para pantallas pequeñas */
-        padding: 0 10px;
-        /* Añade un poco de padding para que el texto no toque los bordes */
-    }
-}
 
 
 /*Estudios*/
