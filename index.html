@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio de Juan Manuel Muñoz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d3f74db245.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="./JS/script.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-content">
+            <!-- Navegación en Español -->
+            <ul id="nav-es">
+                <li><a href="#sobremi">Sobre mí</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li id="anchor_li"><i class="fa-solid fa-anchor" id="anchor"></i></li>
+                <li><a href="#portfolio">Proyectos</a></li>
+                <li><a href="#estudios">Estudios</a></li>
+            </ul>
+
+            <!-- Navegación en Inglés -->
+            <ul id="nav-en" style="display: none;">
+                <li><a href="#aboutme">Professional Summary</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li id="anchor_li"><i class="fa-solid fa-anchor" id="anchor"></i></li>
+                <li><a href="#proyects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+        </div>
+
+        <div class="lang">
+            <button id="es-btn"><img src="./Imagenes/spain-flag.png" alt="ES"></button>
+            <button id="en-btn"><img src="./Imagenes/uk-flag.png" alt="EN"></button>
+        </div>
+    </nav>
+    <div class="espanol">
+        <article>
+            <!--Bloque de inicio-->
+            <section id="inicio">
+                <div id="imginicio"><img src="./Imagenes/foto_personal_difuminada.jpg" alt="Foto Juan Manuel Muñoz" height="180" class="img-inicio"></div>
+                <div id="bodyinicio">
+                    <h2>Juan Manuel Muñoz Godin</h2>
+                    <h3>Arquitecto Naval</h3>
+                    <div class="location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h5>Madrid</h5>
+                    </div>
+                    <ul id="sociales">
+                        <li><i class="fa-solid fa-envelope"></i><span>juanma.munozgodin@gmail.com</span></li>
+                        <li class="enlace"><a href="./pdf/Munoz Godin Juan Manuel - CV.pdf" download="Juan_Manuel_Munoz-CV.pdf"><i class="fa-solid fa-file"></i></a><span>CV</span></li>
+                        <li class="enlace"><a href="https://www.linkedin.com/in/juanmanuelmunozgodin/" target="_blank"><i class="fa-brands fa-linkedin-in"></a></i>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!--Fin de bloque de inicio-->
+            <!--Inicio bloque Sobre mí-->
+            <section id="sobremi" class="section-offset">
+                <h2 class="titulos">Sobre mí</h2>
+                <p>Soy Ingeniero Naval con una sólida formación en Arquitectura Naval, próximo a finalizar el Máster Habilitante en la Universidad Politécnica de Madrid. A lo largo de mi trayectoria, he acumulado una valiosa experiencia a través de prácticas
+                    y becas, que me han permitido desarrollar competencias clave en la realización de ensayos, extrapolación de resultados y manejo de software especializado como NX, Foran, Maxsurf, y Ansys Aqwa. Además, cuento con habilidades en programación
+                    con Matlab y Python, y experiencia en el control de versiones con GitHub.</p>
+
+                <p>Mi pasión por la investigación y el desarrollo me impulsa a aplicar mi capacidad analítica y creatividad para promover innovaciones en el sector de energías offshore. Estoy enfocado en soluciones prácticas y en la adopción de tecnologías
+                    emergentes, lo que me permite contribuir significativamente al éxito de proyectos complejos y sostenibles.</p>
+
+                <p>Soy una persona perseverante y comprometida, con una gran capacidad para trabajar en equipo y un constante deseo de enfrentar nuevos retos. Mi objetivo es aplicar mis conocimientos y habilidades para impulsar el avance tecnológico y sostenible
+                    en el sector naval.</p>
+            </section>
+            <!--Fin bloque sobre mí-->
+            <!--Inicio bloque experiencia-->
+            <section id="experiencia" class="section-offset">
+                <h2 class="titulos">Experiencia</h2>
+                <h3 class="subtitulos">Desarrollo profesional en el <strong>sector Naval</strong></h3>
+                <div class="filaexperiencia">
+                    <div class="card_exp">
+                        <h3>Siemens Digital Industries</h3>
+                        <h4>Becario en Quality Assurance and Quality control</h4>
+                        <h5>02/2023 - 06/2024</h5>
+                        <div class="sep"></div>
+                        <ul>
+                            <li>Validación y pruebas de nuevos desarrollos en NX para arquitectura naval, garantizando su correcta integración.</li>
+                            <li>Ejecución de más de 50 pruebas automáticas en los módulos FSYSD, FDEFIN y FPIPE de Foran, utilizando Squish froglogic con Python.</li>
+                        </ul>
+                        <h5 class="tech">Tecnologías</h5>
+                        <p>
+                            <img src="./Imagenes/tech/foran.jpg" alt="Foran" class="tech-icon" id="tech-icon-foran">
+                            <img src="./Imagenes/tech/NX.jpg" alt="NX" class="tech-icon" id="tech-icon-nx">
+                            <img src="./Imagenes/tech/python.jpg" alt="Python" class="tech-icon">
+                            <img src="./Imagenes/tech/squish.jpg" alt="Squish" class="tech-icon">
+                        </p>
+                        <div class="masinfo"><a href="https://www.linkedin.com/in/juanmanuelmunozgodin/details/experience/" target="_blank"><button type="button">MAS INFO</a></button>
+                        </div>
+                    </div>
+                    <div class="card_exp">
+                        <h3>INTA CEHIPAR</h3>
+                        <h4>Estudiante en prácticas en Canal de Aguas tranquilas</h4>
+                        <h5>09/2022 - 02/2023</h5>
+                        <div class="sep"></div>
+                        <div>
+                            <ul>
+                                <li>Seguimiento y extrapolación de resultados en ensayos hidrodinámicos, aplicados a modelos reales en más de 5 proyectos.</li>
+                                <li>Apoyo en ensayos de cavitación y en el canal de olas, contribuyendo al estudio de nuevos software CAD/CAM.</li>
+                            </ul>
+                        </div>
+                        <h5 class="tech">Tecnologías</h5>
+                        <p>
+                            <img src="./Imagenes/tech/rhino.jpg" alt="Rhinoceros" class="tech-icon">
+                            <img src="./Imagenes/tech/maxsurf.jpg" alt="Maxsurf" class="tech-icon">
+                            <img src="./Imagenes/tech/excel.jpg" alt="Excel" class="tech-icon">
+                            <img src="./Imagenes/tech/solid2.jpg" alt="SolidWorks" class="tech-icon">
+                        </p>
+                        <div class="masinfo"><a href="https://www.linkedin.com/in/juanmanuelmunozgodin/details/experience/" target="_blank"><button type="button">MAS INFO</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Fin bloque experincia-->
+            <!--Inicio bloque proyectos-->
+            <section id="portfolio" class="section-offset">
+                <h2 class="titulos">Proyectos</h2>
+                <h3 class="subtitulos">Aplicando la teoría a la práctica en <strong>Arquitectura Naval</strong></h3>
+                <div class="encabezado">
+                    <h4>Personales</h4>
+                    <h4>Grupales</h4>
+                </div>
+                <div class="filaproy">
+                    <div class="tarjeta" id="primero">
+                        <h4 class="titulo-proy">Simulación CFD. <br> </h4>
+                        <img src="./Imagenes/proyects/openfoam_2.png" alt="Simulación CFD" class="img">
+                        <div>
+                            <ul>
+                                <li>Obtención de resistencia al avance del buque mediante simulación CFD.</li>
+                                <li>Obtención del coeficiente de estela y comparación con fórmulas empíricas</li>
+                            </ul>
+                        </div>
+                        <h5 class="titulo-proy">Tecnologías</h5>
+                        <p>
+                            <img src="./Imagenes/tech/OpenFOAM.png" alt="OpenFOAM" class="tech-icon-proy" id="openfoam">
+                            <img src="./Imagenes/tech/rhino.jpg" alt="Rhinoceros" class="tech-icon-proy">
+                            <img src="./Imagenes/tech/excel.jpg" alt="Excel" class="tech-icon-proy">
+                        </p>
+                        <div class="masinfo"><a href="https://drive.google.com/file/d/1wGSanUQRxbEQofowe4bJewNjH2lrZ9aG/view?usp=sharing" target="_blank"><button type="button">MAS INFO</a></button>
+                        </div>
+                        <!-- Contenido de la tarjeta en la primera columna -->
+                    </div>
+                    <div class="tarjeta" id="segundo">
+                        <h4 class="titulo-proy">Modelo numérico de una plataforma eólica flotante en condiciones operacionales y extremas</h4>
+                        <img src="./Imagenes/proyects/ansys.jpg" alt="Ansys modelado numérico" class="img">
+                        <div>
+                            <ul>
+                                <li>Modelado y simulación de la plataforma flotante a través de ANSYS-AQWA</li>
+                                <li>Evaluación de los movimientos y tensiones de la plataforma </li>
+                                <li>Análisis del sistema de anclaje</li>
+                            </ul>
+                        </div>
+                        <h5 class="titulo-proy">Tecnologías</h5>
+                        <p>
+                            <img src="./Imagenes/tech/rhino.jpg" alt="Rhinoceros" class="tech-icon-proy">
+                            <img src="./Imagenes/tech/maxsurf.jpg" alt="Maxsurf" class="tech-icon-proy">
+                            <img src="./Imagenes/tech/ansys.png" alt="Ansys" class="tech-icon-proy" id="ansys">
+                        </p>
+                        <div class="masinfo"><a href="https://drive.google.com/file/d/124YH3jlM3bB8dncpDlsVLOH8s6LXdlyY/view?usp=sharing" target="_blank"><button type="button">MAS INFO</a></button>
+                        </div>
+                        <!-- Contenido de la tarjeta en la primera columna -->
+                    </div>
+                    <div class="tarjeta" id="tercero">
+                        <h4 class="titulo-proy">Diseño, optimización y fabricación de hélice</h4>
+                        <img src="./Imagenes/proyects/helice2.png" alt="Hélice" height="150px" class="img">
+                        <div>
+                            <ul>
+                                <li>Diseño de hélice para condiciones operacionales de buque modelo</li>
+                                <li>Comparación de softwares (jSDN y OpenPROP) y series sistemáticas para su optimización</li>
+                                <li>Fabriación de hélice de D = 200mm en 3D</li>
+                            </ul>
+                        </div>
+                        <h5 class="titulo-proy">Tecnologías</h5>
+                        <p>
+                            <img src="./Imagenes/tech/rhino.jpg" alt="Rhinoceros" class="tech-icon-proy">
+                            <img src="./Imagenes/tech/matlab.png" alt="Matlab" class="tech-icon-proy" id="matlab">
+                        </p>
+                        <div class="masinfo"><a href="https://drive.google.com/file/d/1beg_A5ZgtTfP78utcpz_a39oGhFgeGOF/view?usp=sharing" target="_blank"><button type="button">MAS INFO</a></button>
+                        </div>
+                        <!-- Contenido de la tarjeta en la primera columna -->
+                    </div>
+                </div>
+                <div class="filaproy">
+                    <div class="tarjeta" id="primero">
+                        <h4 class="titulo-proy">TFG. Modelos de predicción de resistencia al avance en FreeCAD</h4>
+                        <img src="./Imagenes/proyects/FreeCAD.png" alt="TFG FreeCAD" class="img">
+                        <div>
+                            <ul>
+                                <li>Implementación de modelos semi-empíricos de predicción de resistencia al avance dentro del software libre FreeCAD</li>
+                                <li>Método de Holtrop y método de Amadeo</li>
+                            </ul>
+                        </div>
+                        <h5 class="titulo-proy">Tecnologías</h5>
+                        <p>
+                            <img src="./Imagenes/tech/freecad.png" alt="FreeCAD" class="tech-icon-proy">
+                            <img src="./Imagenes/tech/maxsurf.jpg" alt="Maxsurf" class="tech-icon-proy">
+                            <img src="./Imagenes/tech/python.jpg" alt="Python" class="tech-icon-proy">
+                            <img src="./Imagenes/tech/excel.jpg" alt="Excel" class="tech-icon-proy">
+
+                        </p>
+                        <div class="masinfo"><a href="https://www.linkedin.com/in/juanmanuelmunozgodin/details/projects/" target="_blank"><button type="button">MAS INFO</a></button>
+                        </div>
+                        <!-- Contenido de la tarjeta en la primera columna -->
+                    </div>
+                    <div class="tarjeta" id="segundo">
+                        <h4 class="titulo-proy">Análisis hidrodinámico y diseño de su propulsor de un buque histórico</h4>
+                        <img src="./Imagenes/proyects/HAB.png" alt="OpenFoam" class="img">
+                        <div>
+                            <ul>
+                                <li>Cálculo de la resistencia al avance a través de métodos manuales, modelos semi-empíricos y CFD</li>
+                                <li>Diseño y comparación del propulsor por diversos métodos</li>
+                            </ul>
+                        </div>
+                        <h5 class="titulo-proy">Tecnologías</h5>
+                        <p>
+                            <img src="./Imagenes/tech/rhino.jpg" alt="Rhinoceros" class="tech-icon-proy">
+                            <img src="./Imagenes/tech/maxsurf.jpg" alt="Maxsurf" class="tech-icon-proy">
+                            <img src="./Imagenes/tech/matlab.png" alt="Excel" class="tech-icon-proy" id="matlab">
+                            <img src="./Imagenes/tech/OpenFOAM.png" alt="OpenFOAM" class="tech-icon-proy" id="openfoam">
+                            <img src="./Imagenes/tech/freecad.png" alt="FreeCAD" class="tech-icon-proy">
+                        </p>
+                        <div class="masinfo"><a href="https://drive.google.com/file/d/1qZbMLzKN9Zs9www1E4c4yfA9c8esVU5x/view?usp=sharing" target="_blank"><button type="button">MAS INFO</a></button>
+                        </div>
+                        <!-- Contenido de la tarjeta en la primera columna -->
+                    </div>
+                    <div class="tarjeta" id="tercero">
+                        <h4 class="titulo-proy">Análisis de maniobrabilidad y resistencia añadida en el buque</h4>
+                        <iframe src="https://drive.google.com/file/d/1IoCbuX5LOXet8JVTy0mfgPzo2tfftV_2/preview" width="640" height="480" allow="autoplay" class="video"></iframe>
+                        <div>
+                            <ul>
+                                <li>Evaluación de la maniobrabilidad a través del cálculo de los coeficientes de maniobrarbilidad</li>
+                                <li>Estimación de la resistencia añadida en olas</li>
+                            </ul>
+                        </div>
+                        <h5 class="titulo-proy">Tecnologías</h5>
+                        <p>
+                            <img src="./Imagenes/tech/maxsurf.jpg" alt="Maxsurf" class="tech-icon-proy">
+                            <img src="./Imagenes/tech/matlab.png" alt="Matlab" class="tech-icon-proy" id="matlab">
+                            <img src="./Imagenes/tech/excel.jpg" alt="Excel" class="tech-icon-proy">
+                        </p>
+                        <div class="masinfo"><a href="https://drive.google.com/file/d/1sMilYOjuV0BlCVBuDFGQiPcc9bJfNdOg/view?usp=sharing" target="_blank"><button type="button">MAS INFO</a></button>
+                        </div>
+                        <!-- Contenido de la tarjeta en la primera columna -->
+                    </div>
+                </div>
+                <div class="filaproy">
+                    <div class="tarjeta" id="primero">
+                        <h4 class="titulo-proy">Modificación estructural</h4>
+                        <img src="./Imagenes/proyects/Modificacion estructural.png" alt="Modificacion estructural" class="img">
+                        <div>
+                            <ul>
+                                <li>Transformación de un buque portacontenedores mediante un aumento de manga igual al largo de un contenedor</li>
+                                <li>Aumento de la carga de contenedores en un 13.1%</li>
+                                <li>Estudio de viabilidad estructural</li>
+                            </ul>
+                        </div>
+                        <h5 class="titulo-proy">Tecnologías</h5>
+                        <p>
+                            <img src="./Imagenes/tech/bv.jpg" alt="bv" class="tech-icon-proy" id="bv">
+                            <img src="./Imagenes/tech/bv.jpg" alt="bv" class="tech-icon-proy" id="bv"> <br> MARS 2000 <span class="text-margin">STEEL</span>
+                        </p>
+                        <div class="masinfo"><a href="https://drive.google.com/file/d/1XCjVrAket6fKBrUjH4yRIYxZWlGeEGyu/view?usp=sharing" target="_blank"><button type="button">MAS INFO</a></button>
+                        </div>
+                        <!-- Contenido de la tarjeta en la primera columna -->
+                    </div>
+                    <div class="tarjeta" id="segundo">
+                        <h4 class="titulo-proy">Modelado y estudio de una plataforma TLP para la acuicultura de Salmón en el Atlántico Norte </h4>
+                        <img src="./Imagenes/proyects/plataforma.png" alt="OpenFoam" class="img">
+                        <div>
+                            <ul>
+                                <li>Análisis de las cargas aplicadas</li>
+                                <li>Modelado de la geometría en steel</li>
+                                <li>Evaluación de las tensiones y escantillonado de la plataforma</li>
+                            </ul>
+                        </div>
+                        <h5 class="titulo-proy">Tecnologías</h5>
+                        <p>
+                            <img src="./Imagenes/tech/bv.jpg" alt="bv" class="tech-icon-proy" id="bv">
+                            <img src="./Imagenes/tech/bv.jpg" alt="bv" class="tech-icon-proy" id="bv"> <br> MARS 2000 <span class="text-margin">STEEL</span>
+                        </p>
+                        <div class="masinfo"><a href="https://drive.google.com/file/d/1-al24wxMaADT03-CS7iv0SvZj2vvkqzZ/view?usp=sharing" target="_blank"><button type="button">MAS INFO</a></button>
+                        </div>
+                        <!-- Contenido de la tarjeta en la primera columna -->
+                    </div>
+
+                </div>
+            </section>
+
+            <!--Fin bloque proyectos-->
+            <!--Inicio bloque estudios-->
+            <section id="estudios" class="section-offset">
+                <h2 class="titulos" id="est">Estudios</h2>
+                <h3 class="subtitulos" id="est">Educación y Certificaciones</strong>
+                </h3>
+                <div class="filaestudios">
+                    <div class="card_est" id="est">
+                        <h3>Máster Habilitante Ingeniería Naval y Oceánica</h3>
+                        <h4>Universidad Politécncia de madrid</h4>
+                        <h5>09/2023 - actualidad</h5>
+                        <div class="sep"></div>
+                        <h5 class="tech">Tecnologías</h5>
+                        <p>
+                            <img src="./Imagenes/tech/maxsurf.jpg" alt="Maxsurf" class="tech-icon">
+                            <img src="./Imagenes/tech/python.jpg" alt="Python" class="tech-icon">
+                            <img src="./Imagenes/tech/ansys.png" alt="ansys" class="tech-icon" id="ansys">
+                            <img src="./Imagenes/tech/OpenFOAM.png" alt="OpenFOAM" class="tech-icon" id="openfoam">
+                        </p>
+                        <div class="masinfo"><a href="https://www.linkedin.com/in/juanmanuelmunozgodin/details/education/" target="_blank"><button type="button">MAS INFO</a></button>
+                        </div>
+                    </div>
+                    <div class="card_est" id="est">
+                        <h3>Arquitectura Naval</h3>
+                        <h4>Univesirdad Politécncia de Madrid</h4>
+                        <h5>09/2019 - 06/2023</h5>
+                        <div class="sep"></div>
+                        <h5 class="tech">Tecnologías</h5>
+                        <p>
+                            <img src="./Imagenes/tech/rhino.jpg" alt="Rhinoceros" class="tech-icon">
+                            <img src="./Imagenes/tech/maxsurf.jpg" alt="Maxsurf" class="tech-icon">
+                            <img src="./Imagenes/tech/autocad.png" alt="Autocad" class="tech-icon">
+                            <img src="./Imagenes/tech/foran.jpg" alt="Foran" class="tech-icon" id="tech-icon-foran">
+                            <img src="./Imagenes/tech/matlab.png" alt="Autocad" class="tech-icon" id="matlab">
+                        </p>
+                        <div class="masinfo"><a href="https://www.linkedin.com/in/juanmanuelmunozgodin/details/experience/" target="_blank"><button type="button">MAS INFO</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Fin bloque estudios-->
+        </article>
+        <!--Bloque footer-->
+        <footer>
+            <ul>
+                <li>Juan Manuel Muñoz</li>
+                <li id="anchor_li"><i class="fa-solid fa-anchor" id="anchor"></i></li>
+                <li>Arquitecto Naval</li>
+            </ul>
+        </footer>
+    </div>
+    <div class="ingles" style="display: none;">
+
+        <article>
+            <!--Bloque de inicio-->
+            <section id="inicio">
+                <div id="imginicio"><img src="./Imagenes/foto_personal_difuminada.jpg" alt="Foto Juan Manuel Muñoz" height="180" class="img-inicio"></div>
+                <div id="bodyinicio">
+                    <h2>Juan Manuel Muñoz Godin</h2>
+                    <h3>Naval Architect</h3>
+                    <div class="location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h5>Madrid</h5>
+                    </div>
+                    <ul id="sociales">
+                        <li><i class="fa-solid fa-envelope"></i><span>juanma.munozgodin@gmail.com</span></li>
+                        <li class="enlace"><a href="./pdf/Munoz Godin Juan Manuel - English CV.pdf" download="Juan_Manuel_Munoz-CV.pdf"><i class="fa-solid fa-file"></i></a><span>CV</span></li>
+                        <li class="enlace"><a href="https://www.linkedin.com/in/juanmanuelmunozgodin/" target="_blank"><i class="fa-brands fa-linkedin-in"></a></i>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!--Fin de bloque de inicio-->
+            <!--Inicio bloque Sobre mí-->
+            <section id="aboutme" class="section-offset">
+                <h2 class="titulos">Professional Summary</h2>
+                <p>I am a Naval Engineer with a solid background in Naval Architecture, nearing the completion of the Master's Degree in Naval and Oceanic Engineering at the Universidad Politénica de Madrid. Throughout my career, I have gained valuable experience
+                    as an intern and intership student, which have allowed me to develop key skills in conducting tests, extrapolating results, and using specialized software such as NX, Foran, Maxsurf, and Ansys Aqwa. Additionally, I possess programming
+                    skills in Matlab and Python and experience in version control with GitHub.</p>
+
+                <p>My passion for research and development drives me to apply my analytical skills and creativity to foster innovations in the offshore energy sector. I focus on practical solutions and the adoption of emerging technologies, allowing me to
+                    significantly contribute to the success of complex and sustainable projects.</p>
+
+                <p>I am a perseverant and committed individual with a strong ability to work in teams and a constant desire to tackle new challenges. My goal is to apply my knowledge and skills to drive technological and sustainable advancement in the naval
+                    sector.
+                </p>
+            </section>
+            <!--Fin bloque sobre mí-->
+            <!--Inicio bloque experiencia-->
+            <section id="experience" class="section-offset">
+                <h2 class="titulos">Experience</h2>
+                <h3 class="subtitulos">Professional development in the <strong>Naval sector</strong></h3>
+                <div class="filaexperiencia">
+                    <div class="card_exp">
+                        <h3>Siemens Digital Industries</h3>
+                        <h4>Intern in Quality Assurance and Quality control</h4>
+                        <h5>02/2023 - 06/2024</h5>
+                        <div class="sep"></div>
+                        <ul>
+                            <li>Validation and testing of new developments in NX for naval architecture, ensuring their proper integration.</li>
+                            <li>Execution of over 50 automated tests in the FSYSD, FDEFIN, and FPIPE modules of Foran, using Squish Froglogic with Python.</li>
+                        </ul>
+                        <h5 class="tech">Technologies</h5>
+                        <p>
+                            <img src="./Imagenes/tech/foran.jpg" alt="Foran" class="tech-icon" id="tech-icon-foran">
+                            <img src="./Imagenes/tech/NX.jpg" alt="NX" class="tech-icon" id="tech-icon-nx">
+                            <img src="./Imagenes/tech/python.jpg" alt="Python" class="tech-icon">
+                            <img src="./Imagenes/tech/squish.jpg" alt="Squish" class="tech-icon">
+                        </p>
+                        <div class="masinfo"><a href="https://www.linkedin.com/in/juanmanuelmunozgodin/details/experience/" target="_blank"><button type="button">MORE INFO</a></button>
+                        </div>
+                    </div>
+                    <div class="card_exp">
+                        <h3>INTA CEHIPAR</h3>
+                        <h4>Intership student in Calm Water Basin</h4>
+                        <h5>09/2022 - 02/2023</h5>
+                        <div class="sep"></div>
+                        <div>
+                            <ul>
+                                <li>Monitoring and extrapolation of results in hydrodynamic tests applied to real models in more than 5 projects.</li>
+                                <li>Assistance in cavitation tests and in the wave channel, contributing to the study of new CAD/CAM software.</li>
+                            </ul>
+
+                        </div>
+                        <h5 class="tech">Technologies</h5>
+                        <p>
+                            <img src="./Imagenes/tech/rhino.jpg" alt="Rhinoceros" class="tech-icon">
+                            <img src="./Imagenes/tech/maxsurf.jpg" alt="Maxsurf" class="tech-icon">
+                            <img src="./Imagenes/tech/excel.jpg" alt="Excel" class="tech-icon">
+                            <img src="./Imagenes/tech/solid2.jpg" alt="SolidWorks" class="tech-icon">
+                        </p>
+                        <div class="masinfo"><a href="https://www.linkedin.com/in/juanmanuelmunozgodin/details/experience/" target="_blank"><button type="button">MORE INFO</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Fin bloque experincia-->
+            <!--Inicio bloque proyectos-->
+            <section id="portfolio" class="section-offset">
+                <h2 class="titulos">Projects</h2>
+                <h3 class="subtitulos">Applying theory to practice in <strong>Naval Architecture</strong></h3>
+                <div class="encabezado">
+                    <h4>Personal</h4>
+                    <h4>Group</h4>
+                </div>
+                <div class="filaproy">
+                    <div class="tarjeta" id="primero">
+                        <h4 class="titulo-proy">CFD Simulation. <br> </h4>
+                        <img src="./Imagenes/proyects/openfoam_2.png" alt="CFD Simulation" class="img">
+                        <div>
+                            <ul>
+                                <li>Calculation of ship resistance using CFD simulation.</li>
+                                <li>Calculation of wake coefficient and comparison with empirical formulas.</li>
+                            </ul>
+                        </div>
+                        <h5 class="titulo-proy">Technologies</h5>
+                        <p>
+                            <img src="./Imagenes/tech/OpenFOAM.png" alt="OpenFOAM" class="tech-icon-proy" id="openfoam">
+                            <img src="./Imagenes/tech/rhino.jpg" alt="Rhinoceros" class="tech-icon-proy">
+                            <img src="./Imagenes/tech/excel.jpg" alt="Excel" class="tech-icon-proy">
+                        </p>
+                        <div class="masinfo"><a href="https://drive.google.com/file/d/1wGSanUQRxbEQofowe4bJewNjH2lrZ9aG/view?usp=sharing" target="_blank"><button type="button">MORE INFO</a></button>
+                        </div>
+                        <!-- Contenido de la tarjeta en la primera columna -->
+                    </div>
+                    <div class="tarjeta" id="segundo">
+                        <h4 class="titulo-proy">Numerical model of a floating wind platform under operational and extreme conditions</h4>
+                        <img src="./Imagenes/proyects/ansys.jpg" alt="Ansys numerical modeling" class="img">
+                        <div>
+                            <ul>
+                                <li>Modeling and simulation of the floating platform using ANSYS-AQWA.</li>
+                                <li>Evaluation of platform motions and stresses.</li>
+                                <li>Analysis of the mooring system.</li>
+                            </ul>
+                        </div>
+                        <h5 class="titulo-proy">Technologies</h5>
+                        <p>
+                            <img src="./Imagenes/tech/rhino.jpg" alt="Rhinoceros" class="tech-icon-proy">
+                            <img src="./Imagenes/tech/maxsurf.jpg" alt="Maxsurf" class="tech-icon-proy">
+                            <img src="./Imagenes/tech/ansys.png" alt="Ansys" class="tech-icon-proy" id="ansys">
+                        </p>
+                        <div class="masinfo"><a href="https://drive.google.com/file/d/124YH3jlM3bB8dncpDlsVLOH8s6LXdlyY/view?usp=sharing" target="_blank"><button type="button">MORE INFO</a></button>
+                        </div>
+                        <!-- Contenido de la tarjeta en la primera columna -->
+                    </div>
+                    <div class="tarjeta" id="tercero">
+                        <h4 class="titulo-proy">Propeller design, optimization, and manufacturing</h4>
+                        <img src="./Imagenes/proyects/helice2.png" alt="Propeller" height="150px" class="img">
+                        <div>
+                            <ul>
+                                <li>Propeller design for model ship operational conditions.</li>
+                                <li>Comparison of software (jSDN and OpenPROP) and systematic series for optimization.</li>
+                                <li>3D printing of a propeller with D = 200mm.</li>
+                            </ul>
+                        </div>
+                        <h5 class="titulo-proy">Technologies</h5>
+                        <p>
+                            <img src="./Imagenes/tech/rhino.jpg" alt="Rhinoceros" class="tech-icon-proy">
+                            <img src="./Imagenes/tech/matlab.png" alt="Matlab" class="tech-icon-proy" id="matlab">
+                        </p>
+                        <div class="masinfo"><a href="https://drive.google.com/file/d/1beg_A5ZgtTfP78utcpz_a39oGhFgeGOF/view?usp=sharing" target="_blank"><button type="button">MORE INFO</a></button>
+                        </div>
+                        <!-- Contenido de la tarjeta en la primera columna -->
+                    </div>
+                </div>
+                <div class="filaproy">
+                    <div class="tarjeta" id="primero">
+                        <h4 class="titulo-proy">Final Degree Project. Resistance prediction models in FreeCAD</h4>
+                        <img src="./Imagenes/proyects/FreeCAD.png" alt="Final Degree Project FreeCAD" class="img">
+                        <div>
+                            <ul>
+                                <li>Implementation of semi-empirical models for resistance prediction in the open-source software FreeCAD.</li>
+                                <li>Holtrop method and Amadeo method.</li>
+                            </ul>
+                        </div>
+                        <h5 class="titulo-proy">Technologies</h5>
+                        <p>
+                            <img src="./Imagenes/tech/freecad.png" alt="FreeCAD" class="tech-icon-proy">
+                            <img src="./Imagenes/tech/maxsurf.jpg" alt="Maxsurf" class="tech-icon-proy">
+                            <img src="./Imagenes/tech/python.jpg" alt="Python" class="tech-icon-proy">
+                            <img src="./Imagenes/tech/excel.jpg" alt="Excel" class="tech-icon-proy">
+                        </p>
+                        <div class="masinfo"><a href="https://www.linkedin.com/in/juanmanuelmunozgodin/details/projects/" target="_blank"><button type="button">MORE INFO</a></button>
+                        </div>
+                        <!-- Contenido de la tarjeta en la primera columna -->
+                    </div>
+                    <div class="tarjeta" id="segundo">
+                        <h4 class="titulo-proy">Hydrodynamic analysis and propeller design of a historical ship</h4>
+                        <img src="./Imagenes/proyects/HAB.png" alt="OpenFoam" class="img">
+                        <div>
+                            <ul>
+                                <li>Resistance calculation using manual methods, semi-empirical models, and CFD.</li>
+                                <li>Design and comparison of the propeller using various methods.</li>
+                            </ul>
+                        </div>
+                        <h5 class="titulo-proy">Technologies</h5>
+                        <p>
+                            <img src="./Imagenes/tech/rhino.jpg" alt="Rhinoceros" class="tech-icon-proy">
+                            <img src="./Imagenes/tech/maxsurf.jpg" alt="Maxsurf" class="tech-icon-proy">
+                            <img src="./Imagenes/tech/matlab.png" alt="Excel" class="tech-icon-proy" id="matlab">
+                            <img src="./Imagenes/tech/OpenFOAM.png" alt="OpenFOAM" class="tech-icon-proy" id="openfoam">
+                            <img src="./Imagenes/tech/freecad.png" alt="FreeCAD" class="tech-icon-proy">
+                        </p>
+                        <div class="masinfo"><a href="https://drive.google.com/file/d/1qZbMLzKN9Zs9www1E4c4yfA9c8esVU5x/view?usp=sharing" target="_blank"><button type="button">MORE INFO</a></button>
+                        </div>
+                        <!-- Contenido de la tarjeta en la primera columna -->
+                    </div>
+                    <div class="tarjeta" id="tercero">
+                        <h4 class="titulo-proy">Maneuverability analysis and added resistance in the ship</h4>
+                        <iframe src="https://drive.google.com/file/d/1IoCbuX5LOXet8JVTy0mfgPzo2tfftV_2/preview" width="640" height="480" allow="autoplay" class="video"></iframe>
+                        <div>
+                            <ul>
+                                <li>Evaluation of maneuverability through the calculation of maneuverability coefficients.</li>
+                                <li>Estimation of added resistance in waves.</li>
+                            </ul>
+                        </div>
+                        <h5 class="titulo-proy">Technologies</h5>
+                        <p>
+                            <img src="./Imagenes/tech/maxsurf.jpg" alt="Maxsurf" class="tech-icon-proy">
+                            <img src="./Imagenes/tech/matlab.png" alt="Matlab" class="tech-icon-proy" id="matlab">
+                            <img src="./Imagenes/tech/excel.jpg" alt="Excel" class="tech-icon-proy">
+                        </p>
+                        <div class="masinfo"><a href="https://drive.google.com/file/d/1sMilYOjuV0BlCVBuDFGQiPcc9bJfNdOg/view?usp=sharing" target="_blank"><button type="button">MORE INFO</a></button>
+                        </div>
+                        <!-- Contenido de la tarjeta en la primera columna -->
+                    </div>
+                </div>
+                <div class="filaproy">
+                    <div class="tarjeta" id="primero">
+                        <h4 class="titulo-proy">Structural modification</h4>
+                        <img src="./Imagenes/proyects/Modificacion estructural.png" alt="Structural modification" class="img">
+                        <div>
+                            <ul>
+                                <li>Conversion of a container ship by increasing its beam to the length of a container.</li>
+                                <li>Increase in container load by 13.1%.</li>
+                                <li>Structural feasibility study.</li>
+                            </ul>
+                        </div>
+                        <h5 class="titulo-proy">Technologies</h5>
+                        <p>
+                            <img src="./Imagenes/tech/bv.jpg" alt="bv" class="tech-icon-proy" id="bv">
+                            <img src="./Imagenes/tech/bv.jpg" alt="bv" class="tech-icon-proy" id="bv"> <br> MARS 2000 <span class="text-margin">STEEL</span>
+                        </p>
+                        <div class="masinfo"><a href="https://drive.google.com/file/d/1XCjVrAket6fKBrUjH4yRIYxZWlGeEGyu/view?usp=sharing" target="_blank"><button type="button">MORE INFO</a></button>
+                        </div>
+                        <!-- Contenido de la tarjeta en la primera columna -->
+                    </div>
+                    <div class="tarjeta" id="segundo">
+                        <h4 class="titulo-proy">Modeling and study of a TLP platform for salmon aquaculture in the North Atlantic</h4>
+                        <img src="./Imagenes/proyects/plataforma.png" alt="OpenFoam" class="img">
+                        <div>
+                            <ul>
+                                <li>Analysis of applied loads.</li>
+                                <li>Modeling of the geometry in steel.</li>
+                                <li>Evaluation of stresses and scantling of the platform.</li>
+                            </ul>
+                        </div>
+                        <h5 class="titulo-proy">Technologies</h5>
+                        <p>
+                            <img src="./Imagenes/tech/bv.jpg" alt="bv" class="tech-icon-proy" id="bv">
+                            <img src="./Imagenes/tech/bv.jpg" alt="bv" class="tech-icon-proy" id="bv"> <br> MARS 2000 <span class="text-margin">STEEL</span>
+                        </p>
+                        <div class="masinfo"><a href="https://drive.google.com/file/d/1-al24wxMaADT03-CS7iv0SvZj2vvkqzZ/view?usp=sharing" target="_blank"><button type="button">MORE INFO</a></button>
+                        </div>
+                        <!-- Contenido de la tarjeta en la primera columna -->
+                    </div>
+                </div>
+            </section>
+
+            <!--Fin bloque proyectos-->
+            <!--Inicio bloque estudios-->
+            <section id="education" class="section-offset">
+                <h2 class="titulos" id="est">Education</h2>
+                <h3 class="subtitulos" id="est">Education and Certifications</strong>
+                </h3>
+                <div class="filaestudios">
+                    <div class="card_est" id="est">
+                        <h3>Master's Degree in Naval and Oceanic Engineering</h3>
+                        <h4>Universidad Politécncia de madrid</h4>
+                        <h5>09/2023 - present</h5>
+                        <div class="sep"></div>
+                        <h5 class="tech">Technologies</h5>
+                        <p>
+                            <img src="./Imagenes/tech/maxsurf.jpg" alt="Maxsurf" class="tech-icon">
+                            <img src="./Imagenes/tech/python.jpg" alt="Python" class="tech-icon">
+                            <img src="./Imagenes/tech/ansys.png" alt="ansys" class="tech-icon" id="ansys">
+                            <img src="./Imagenes/tech/OpenFOAM.png" alt="OpenFOAM" class="tech-icon" id="openfoam">
+                        </p>
+                        <div class="masinfo"><a href="https://www.linkedin.com/in/juanmanuelmunozgodin/details/education/" target="_blank"><button type="button">MORE INFO</a></button>
+                        </div>
+                    </div>
+                    <div class="card_est" id="est">
+                        <h3>Bachelor's Degree in Naval Architect</h3>
+                        <h4>Univesirdad Politécncia de Madrid</h4>
+                        <h5>09/2019 - 06/2023</h5>
+                        <div class="sep"></div>
+                        <h5 class="tech">Technologies</h5>
+                        <p>
+                            <img src="./Imagenes/tech/rhino.jpg" alt="Rhinoceros" class="tech-icon">
+                            <img src="./Imagenes/tech/maxsurf.jpg" alt="Maxsurf" class="tech-icon">
+                            <img src="./Imagenes/tech/autocad.png" alt="Autocad" class="tech-icon">
+                            <img src="./Imagenes/tech/foran.jpg" alt="Foran" class="tech-icon" id="tech-icon-foran">
+                            <img src="./Imagenes/tech/matlab.png" alt="Autocad" class="tech-icon" id="matlab">
+                        </p>
+                        <div class="masinfo"><a href="https://www.linkedin.com/in/juanmanuelmunozgodin/details/experience/" target="_blank"><button type="button">MORE INFO</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Fin bloque estudios-->
+        </article>
+        <!--Bloque footer-->
+        <footer>
+            <ul>
+                <li>Juan Manuel Muñoz</li>
+                <li id="anchor_li"><i class="fa-solid fa-anchor" id="anchor"></i></li>
+                <li>Naval Architect</li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
