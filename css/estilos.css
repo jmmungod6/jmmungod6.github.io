@@ -299,6 +299,7 @@ button {
 
 #tech-icon-foran,
 #openfoam,
+#openfast,
 #ansys,
 #matlab {
     height: 30px;
@@ -311,6 +312,10 @@ button {
 }
 
 #openfoam {
+    width: 80px;
+}
+
+#openfast {
     width: 80px;
 }
 
@@ -455,6 +460,16 @@ button {
     border-radius: 15px;
 }
 
+.tarjeta .video_sim {
+    width: 100%;
+    /* La imagen ocupará todo el ancho de la tarjeta */
+    height: 200px;
+    /* Mantendrá la proporción de la imagen */
+    object-fit: cover;
+    /* Recorta la imagen para llenar el espacio de la tarjeta sin distorsionar */
+    border-radius: 15px;
+}
+
 .tech-icon-proy {
     width: 30px;
     /* Ajusta el tamaño según tus necesidades */
@@ -524,6 +539,19 @@ button {
     margin-bottom: 10px;
 }
 
+@media (max-width: 600px) {
+    .encabezado {
+        grid-template-columns: 1fr;
+        /* Hace que ambos títulos ocupen toda la pantalla */
+    }
+    .titulo-1,
+    .titulo-2 {
+        font-size: 1.5rem;
+        /* Ajusta el tamaño de fuente para pantallas pequeñas */
+        padding: 0 10px;
+        /* Añade un poco de padding para que el texto no toque los bordes */
+    }
+}
 
 
 /*Estudios*/
